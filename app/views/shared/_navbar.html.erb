@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand navbar-light bg-light mb-5 border border-primary">
+  <div class="container-fluid">
+    <%= link_to "Schwitter", root_path, class: "navbar-brand" %>
+      <ul class="navbar-nav">
+        <% if Current.user %>
+          <li class="nav-item dropdown">
+            <%= link_to Current.user.email, "#", class: "nav-link dropdown-toggle", data: {toggle: "dropdown"} %>
+            <div class="dropdown-menu">
+              <%= link_to "update password", password_path, class: "dropdown-item" %>
+              <%= link_to "twitter accounts", twitter_accounts_path, class: "dropdown-item" %>
+              <%= link_to "scheduled tweets", tweets_path, class: "dropdown-item" %>
+              <%= link_to "logout", logout_path, method: :delete, class: "dropdown-item" %>
+            </div>
+          </li>
+        <% else %>
+          <li class="nav-item">
+            <%= link_to "login", sign_in_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "sign up", sign_up_path, class: "nav-link" %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
