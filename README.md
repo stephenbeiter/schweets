@@ -1,4 +1,4 @@
-# Scheduled Tweets
+# Schweets
 
 ## Ruby version
 
