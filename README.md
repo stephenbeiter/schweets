@@ -1,24 +1,27 @@
-# README
+# Scheduled Tweets
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
 
-Things you may want to cover:
+3.0.0
 
-* Ruby version
+## System dependencies
 
-* System dependencies
+Rails v6.1.4
 
-* Configuration
+Postgres v1.2
 
-* Database creation
+bcrypt v3.1.7
 
-* Database initialization
+omniauth-twitter v1.4
 
-* How to run the test suite
+## Services
 
-* Services (job queues, cache servers, search engines, etc.)
+sidekiq
 
-* Deployment instructions
+## Author
 
-* ...
+Stephen Beiter
+
+[github](https://github.com/stephenbeiter)
+
+[stephenbeiter@gmail.com](mailto:stephenbeiter@gmail.com)
