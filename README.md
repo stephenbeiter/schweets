@@ -17,6 +17,7 @@ omniauth-twitter v1.4
 ## Services
 
 sidekiq
+redis
 
 ## Author
 
