@@ -1,4 +1,6 @@
-# Schweets
+# [Schwitter](https://schwitter.herokuapp.com/)
+
+### Schedule your twitter.
 
 ## Ruby version
 
